@@ -1,4 +1,4 @@
-package de.kai_morich.simple_bluetooth_le_terminal;
+package com.pickey.pickeyble;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -137,6 +137,14 @@ public class TerminalFragment extends Fragment implements ServiceConnection, Ser
 
         View sendBtn = view.findViewById(R.id.send_btn);
         sendBtn.setOnClickListener(v -> send(sendText.getText().toString()));
+
+        View snakeBtn = view.findViewById(R.id.snake_button);
+        snakeBtn.setOnClickListener(v -> send("led.snake:r=255,g=0,b=0,l=5"));
+
+        View partyBtn = view.findViewById(R.id.party_button);
+        partyBtn.setOnClickListener(v -> send("led.party"));
+
+
         return view;
     }
 

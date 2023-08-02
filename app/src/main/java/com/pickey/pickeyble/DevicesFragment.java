@@ -1,4 +1,4 @@
-package de.kai_morich.simple_bluetooth_le_terminal;
+package com.pickey.pickeyble;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -29,6 +29,8 @@ import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.ListFragment;
+
+import com.pickey.pickeyble.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

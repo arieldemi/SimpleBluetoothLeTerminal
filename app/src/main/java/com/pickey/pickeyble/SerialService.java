@@ -1,4 +1,4 @@
-package de.kai_morich.simple_bluetooth_le_terminal;
+package com.pickey.pickeyble;
 
 import android.app.Notification;
 import android.app.NotificationChannel;

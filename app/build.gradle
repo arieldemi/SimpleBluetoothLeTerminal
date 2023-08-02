@@ -7,7 +7,7 @@ android {
         minSdkVersion 18
         vectorDrawables.useSupportLibrary true
 
-        applicationId "de.kai_morich.simple_bluetooth_le_terminal"
+        applicationId "com.pickey.pickeyble"
         versionCode 1
         versionName "1.0"
     }
@@ -21,7 +21,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    namespace 'de.kai_morich.simple_bluetooth_le_terminal'
+    namespace 'com.pickey.pickeyble'
 }
 
 dependencies {
